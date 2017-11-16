@@ -1,0 +1,77 @@
+var class_fog_volume_directional_light =
+[
+    [ "Antialiasing", "class_fog_volume_directional_light.html#a870656dab78c2b5e16966ccd8a6d36b5", [
+      [ "_1", "class_fog_volume_directional_light.html#a870656dab78c2b5e16966ccd8a6d36b5a5d98ec0427152056397e9e35f357be87", null ],
+      [ "_2", "class_fog_volume_directional_light.html#a870656dab78c2b5e16966ccd8a6d36b5a26e3d8bac39f9313d584a6025bd7544d", null ],
+      [ "_4", "class_fog_volume_directional_light.html#a870656dab78c2b5e16966ccd8a6d36b5ab49511be6fca00a500dc7cd69ecc6c58", null ],
+      [ "_8", "class_fog_volume_directional_light.html#a870656dab78c2b5e16966ccd8a6d36b5add494b805517113d9d15b8adf0a09b5c", null ]
+    ] ],
+    [ "FocusMode", "class_fog_volume_directional_light.html#a28c72684fa1a0471a823e480bfebc517", [
+      [ "VolumeCenter", "class_fog_volume_directional_light.html#a28c72684fa1a0471a823e480bfebc517af0a856ce4fbf141c9a4dc1f3ac268885", null ],
+      [ "GameCameraPosition", "class_fog_volume_directional_light.html#a28c72684fa1a0471a823e480bfebc517ad7e1237310b782e1a4e2da914d9d9b4f", null ],
+      [ "GameObject", "class_fog_volume_directional_light.html#a28c72684fa1a0471a823e480bfebc517a3d164a4fbbdd103bddb596268f741bae", null ]
+    ] ],
+    [ "Resolution", "class_fog_volume_directional_light.html#a42f26196fd02141a88992d7d6d181fdd", [
+      [ "_256", "class_fog_volume_directional_light.html#a42f26196fd02141a88992d7d6d181fdda4bb7385c96a24ab1fa7d64e9aed41d5f", null ],
+      [ "_512", "class_fog_volume_directional_light.html#a42f26196fd02141a88992d7d6d181fdda04e74da3bd5f29abe322227d2f10ab0c", null ],
+      [ "_1024", "class_fog_volume_directional_light.html#a42f26196fd02141a88992d7d6d181fdda45e3db0d73a90ecee4a1d22a517a4765", null ],
+      [ "_2048", "class_fog_volume_directional_light.html#a42f26196fd02141a88992d7d6d181fddaa288c30edfd90a84c18a6305eec310be", null ],
+      [ "_4096", "class_fog_volume_directional_light.html#a42f26196fd02141a88992d7d6d181fddaa691c50e53e7a2e48fd956467aa3bb5b", null ]
+    ] ],
+    [ "ScaleMode", "class_fog_volume_directional_light.html#add7dbf5396c558493e6f5d91fe252e2e", [
+      [ "VolumeMaxAxis", "class_fog_volume_directional_light.html#add7dbf5396c558493e6f5d91fe252e2ea4ef8531d2519eb80e3df6a1975a6edd9", null ],
+      [ "Manual", "class_fog_volume_directional_light.html#add7dbf5396c558493e6f5d91fe252e2eae1ba155a9f2e8c3be94020eef32a0301", null ]
+    ] ],
+    [ "UpdateMode", "class_fog_volume_directional_light.html#a0607bab56f6f5b987f02f91dd228fed3", [
+      [ "OnStart", "class_fog_volume_directional_light.html#a0607bab56f6f5b987f02f91dd228fed3a70a1eb25fda36e42a01919d06b7f7a4d", null ],
+      [ "Interleaved", "class_fog_volume_directional_light.html#a0607bab56f6f5b987f02f91dd228fed3a07b7759dc5a12afc0c49d26bc6a401dd", null ]
+    ] ],
+    [ "_AtLeastOneFogVolumeInArray", "class_fog_volume_directional_light.html#ada89e2eb0f730d78e61e7100c2a63abb", null ],
+    [ "_MaxOf", "class_fog_volume_directional_light.html#a6358bcc906b6b81cb7739566887cf3e9", null ],
+    [ "_MaxOf", "class_fog_volume_directional_light.html#ac4f1275f12e377aab55f3fd2caa1555c", null ],
+    [ "AddAllFogVolumesToThisLight", "class_fog_volume_directional_light.html#a2a57537d16d2e560e5c3b56b6fe393c4", null ],
+    [ "CreateMaterial", "class_fog_volume_directional_light.html#ac89043e02abd5b107dbd5ba308c112c6", null ],
+    [ "EnableVolumetricShadow", "class_fog_volume_directional_light.html#afc5bc1cdfe812161afe931bf21c8afa1", null ],
+    [ "Initialize", "class_fog_volume_directional_light.html#ad6be3bce2940334426eac92b68b9ac12", null ],
+    [ "OnDestroy", "class_fog_volume_directional_light.html#ad3bbf212ef77056802cbb8b723aee2bc", null ],
+    [ "OnDisable", "class_fog_volume_directional_light.html#ab7f2d1842496057c0402c167bfedb10b", null ],
+    [ "OnEnable", "class_fog_volume_directional_light.html#a2353e7c971f562ad36eac2def4566b4f", null ],
+    [ "Refresh", "class_fog_volume_directional_light.html#a192b4b5858f40d9e6edf0acff11f78c2", null ],
+    [ "RemoveAllFogVolumesFromThisLight", "class_fog_volume_directional_light.html#a73217ec83bbae161915cb978cb46c98f", null ],
+    [ "Render", "class_fog_volume_directional_light.html#a38d38c14d7db828414fb32cce6b5d219", null ],
+    [ "Update", "class_fog_volume_directional_light.html#aae3016b44141b8370caf06c3f3fbe0b4", null ],
+    [ "_Antialiasing", "class_fog_volume_directional_light.html#add0403755b6a0059f326a474e448672f", null ],
+    [ "_CameraVerticalPosition", "class_fog_volume_directional_light.html#a9fca28e4ad42afc8227ee248a23bd3bb", null ],
+    [ "_Canvas", "class_fog_volume_directional_light.html#ad663d34b5470960c09d2fc80ffcee718", null ],
+    [ "_CanvasImage", "class_fog_volume_directional_light.html#ae65bee64ff7775fae373361f6b9b121c", null ],
+    [ "_FocusMode", "class_fog_volume_directional_light.html#a3b1b30691fb5cc801607679cc10eb3cd", null ],
+    [ "_FogVolumeData", "class_fog_volume_directional_light.html#a89e0cbc6788739fcb68a090977735a3a", null ],
+    [ "_FogVolumeShadowMapEdgeSoftness", "class_fog_volume_directional_light.html#a8ad604a73ae12c126d53a46d768c20df", null ],
+    [ "_GameCamera", "class_fog_volume_directional_light.html#a577da034e7ae796416e20837e7be5ebb", null ],
+    [ "_GameObjectFocus", "class_fog_volume_directional_light.html#af51a163045a54bd4898926d5061831ca", null ],
+    [ "_GO_Canvas", "class_fog_volume_directional_light.html#afc0eda8d3fc4a1e1fef6403e1af6e41d", null ],
+    [ "_GO_Image", "class_fog_volume_directional_light.html#a5cf5d4b05eaa577b26e1d68aa08fd226", null ],
+    [ "_ProminentFogVolume", "class_fog_volume_directional_light.html#af7a60dc5ef9f498d2214ea2c7dca1d57", null ],
+    [ "_ScaleMode", "class_fog_volume_directional_light.html#a5f1c8a95fed14577ec5fb3c0da7d911d", null ],
+    [ "_TargetFogVolumes", "class_fog_volume_directional_light.html#ac3068fd32283f9109c00a76368f994ea", null ],
+    [ "_UpdateMode", "class_fog_volume_directional_light.html#af4af6ab63f775dc001e8198314138bc5", null ],
+    [ "CameraVisible", "class_fog_volume_directional_light.html#a6457129ab96ea533913d3fd521536c32", null ],
+    [ "DebugViewMaterial", "class_fog_volume_directional_light.html#af6d229c623458aa9fb89259f600dbeca", null ],
+    [ "depthRT", "class_fog_volume_directional_light.html#a3fbf2705ba3268cd4ba6bf0a788242cf", null ],
+    [ "FocusPosition", "class_fog_volume_directional_light.html#a77f49868c11a4a5194ecfc1f545d2944", null ],
+    [ "FogVolumeMaterial", "class_fog_volume_directional_light.html#a1387b0cd3a34187ebfa97e9ff6bfd27b", null ],
+    [ "GOShadowCamera", "class_fog_volume_directional_light.html#a31f9cced9f30a60007f578f0b5f844b1", null ],
+    [ "LayersToRender", "class_fog_volume_directional_light.html#a7d169c456793db4223f861278eeb044a", null ],
+    [ "MiniaturePosition", "class_fog_volume_directional_light.html#a65d1ae8a2c326d5d49f91f4301cfe106", null ],
+    [ "outputDepth", "class_fog_volume_directional_light.html#afd20f95801731c0125b3a7c2331ea0b4", null ],
+    [ "Quad", "class_fog_volume_directional_light.html#a4b17ad336efb2f701e336f999edf0ecc", null ],
+    [ "quadMaterial", "class_fog_volume_directional_light.html#a410b5a1118a43a415473f33bfb195871", null ],
+    [ "quadShader", "class_fog_volume_directional_light.html#a1e51cf6cce13d7152a254adce87cb9c2", null ],
+    [ "rt_DepthFormat", "class_fog_volume_directional_light.html#a03b5f7bc846139e972a2cb13ee8541ac", null ],
+    [ "Scale", "class_fog_volume_directional_light.html#a5cfc7db7a5d83fc441d5cbfe8f7c4a82", null ],
+    [ "ShadowCamera", "class_fog_volume_directional_light.html#abe7579433a4ceb2d780213ac9b327627", null ],
+    [ "ShowMiniature", "class_fog_volume_directional_light.html#ab09195e623634f2520b81d1f1660de6a", null ],
+    [ "Size", "class_fog_volume_directional_light.html#aac0bbc75e35dc49a53f7c3738dbb702a", null ],
+    [ "SkipFrames", "class_fog_volume_directional_light.html#a990e3ce6680f67cc7de4fd6209b7e767", null ],
+    [ "QuadMaterial", "class_fog_volume_directional_light.html#aab15d5d1a626f20aa38e6154984a5ee6", null ]
+];

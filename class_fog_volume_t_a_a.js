@@ -1,0 +1,36 @@
+var class_fog_volume_t_a_a =
+[
+    [ "Neighborhood", "class_fog_volume_t_a_a.html#a755466a64cc0ff44a9c542602e840193", [
+      [ "MinMax3x3", "class_fog_volume_t_a_a.html#a755466a64cc0ff44a9c542602e840193a297352ecf9ba7bad14f19d2c475bec4b", null ],
+      [ "MinMax3x3Rounded", "class_fog_volume_t_a_a.html#a755466a64cc0ff44a9c542602e840193a18aa98e3dd602e39b1c5ba8e71132360", null ],
+      [ "MinMax4TapVarying", "class_fog_volume_t_a_a.html#a755466a64cc0ff44a9c542602e840193a7d8db4b480ddcb323347a4091a7a993a", null ]
+    ] ],
+    [ "Awake", "class_fog_volume_t_a_a.html#a4cec09a71423911574f915f30746ed0c", null ],
+    [ "Clear", "class_fog_volume_t_a_a.html#a47fae081ad74c67c9cd870f5e3e801c7", null ],
+    [ "OnDisable", "class_fog_volume_t_a_a.html#ae35c7097febe44a37713564a5c59ca3d", null ],
+    [ "Reset", "class_fog_volume_t_a_a.html#a03b28753030f77cec795042873ed89b0", null ],
+    [ "Resolve", "class_fog_volume_t_a_a.html#a49f51ea0498fbe82f7f8378cb648c6e7", null ],
+    [ "TAA", "class_fog_volume_t_a_a.html#a5c457119843cc5c432c873771b7d24ad", null ],
+    [ "_camera", "class_fog_volume_t_a_a.html#aff49b4b1d5c5db282966f377dd3fa7ad", null ],
+    [ "_FogVolumeCamera", "class_fog_volume_t_a_a.html#a5968f940241f1d3f09688373de9249d7", null ],
+    [ "_frustumJitter", "class_fog_volume_t_a_a.html#ab1cae6cb3fb815da7937bb23ba207854", null ],
+    [ "_velocityBuffer", "class_fog_volume_t_a_a.html#a13cb64cfc938f4cba99fb5698fdd1f8f", null ],
+    [ "feedbackMax", "class_fog_volume_t_a_a.html#a2b400452880afce74723ad3a475ff68a", null ],
+    [ "feedbackMin", "class_fog_volume_t_a_a.html#ae12a4a25013090fd86b79257a09d8bbb", null ],
+    [ "motionBlurIgnoreFF", "class_fog_volume_t_a_a.html#a5e659d21038f4a48974a63a37ccb1c87", null ],
+    [ "motionBlurStrength", "class_fog_volume_t_a_a.html#ad70e01c028bc6d5071646f2b504e68b7", null ],
+    [ "mrt", "class_fog_volume_t_a_a.html#a147416bb371b2442a8b95987c97c09fd", null ],
+    [ "neighborhood", "class_fog_volume_t_a_a.html#a2b42cf102ba930715f09fcb22ff3fa0b", null ],
+    [ "reprojectionBuffer", "class_fog_volume_t_a_a.html#a427e6e890e8850c53314ee3e67413de5", null ],
+    [ "reprojectionIndex", "class_fog_volume_t_a_a.html#a6afac6db91ffaf05653bf9f9ce67002f", null ],
+    [ "reprojectionMaterial", "class_fog_volume_t_a_a.html#af05d822e6171b84638b371739d7aff64", null ],
+    [ "reprojectionShader", "class_fog_volume_t_a_a.html#a8a17621501cf05a3fd93f1c79c1f1edc", null ],
+    [ "unjitterColorSamples", "class_fog_volume_t_a_a.html#ac8b78f521300fd828995cab35d638c44", null ],
+    [ "unjitterNeighborhood", "class_fog_volume_t_a_a.html#a31b5b1ae4cbb9b3949b43f613db4bba7", null ],
+    [ "unjitterReprojection", "class_fog_volume_t_a_a.html#abd6a221acb8fc27d70d6477501defbcd", null ],
+    [ "useClipping", "class_fog_volume_t_a_a.html#ae0a82c935ce9bab0cc448e3a1193d5a4", null ],
+    [ "useDilation", "class_fog_volume_t_a_a.html#a48b0c857d37fb1ee61641b8504a39f7b", null ],
+    [ "useMotionBlur", "class_fog_volume_t_a_a.html#a683c0878e9facdacd08845205379ec5d", null ],
+    [ "useOptimizations", "class_fog_volume_t_a_a.html#a26ac02344bfdc9597a58c9f015711131", null ],
+    [ "useYCoCg", "class_fog_volume_t_a_a.html#a8b9d9fae2bc1c45733ec1538d947f6e9", null ]
+];

@@ -1,0 +1,25 @@
+var class_steam_v_r___external_camera =
+[
+    [ "Config", "struct_steam_v_r___external_camera_1_1_config.html", "struct_steam_v_r___external_camera_1_1_config" ],
+    [ "AttachToCamera", "class_steam_v_r___external_camera.html#a1eeb89b05ef9831261a0ca9be05eeb87", null ],
+    [ "GetTargetDistance", "class_steam_v_r___external_camera.html#a2a4b5b5b810d73474877a17f00041b45", null ],
+    [ "OnChanged", "class_steam_v_r___external_camera.html#aa43c38742f412d53394d563e10dd4ceb", null ],
+    [ "OnDisable", "class_steam_v_r___external_camera.html#a27b909b41fbdcfdf8530c2fcd68cd869", null ],
+    [ "OnEnable", "class_steam_v_r___external_camera.html#a2197cbb13176b69b70bbaa8d9eb56d66", null ],
+    [ "OnGUI", "class_steam_v_r___external_camera.html#adeb5fcfe59eb913706f1a02fa0457b98", null ],
+    [ "ReadConfig", "class_steam_v_r___external_camera.html#a5c6e33ea9ef99b2e8f141e9bc13254b8", null ],
+    [ "RenderFar", "class_steam_v_r___external_camera.html#a64551e8bf4010e50ea36ea7440e86ef4", null ],
+    [ "RenderNear", "class_steam_v_r___external_camera.html#af5bd944463728a6ab513a676e91c17d2", null ],
+    [ "alphaMat", "class_steam_v_r___external_camera.html#a003cd167279dfbe4dbad1daf5ad3cc69", null ],
+    [ "cam", "class_steam_v_r___external_camera.html#a87d3443f1d7288a3a4a2d29561ec3371", null ],
+    [ "cameraRects", "class_steam_v_r___external_camera.html#ad8e75a50deecb7e0aca29d49c9ab9bd1", null ],
+    [ "cameras", "class_steam_v_r___external_camera.html#a3806b3410d57ed8cce63375cd0ce2b6c", null ],
+    [ "clipMaterial", "class_steam_v_r___external_camera.html#af5bb97ca2cba7048d8c8a60aa622fab3", null ],
+    [ "clipQuad", "class_steam_v_r___external_camera.html#a8bac651cf2e96adc553bc657df8ea8a1", null ],
+    [ "colorMat", "class_steam_v_r___external_camera.html#af7d16009b9b62d0aff63fcbb08fb056e", null ],
+    [ "config", "class_steam_v_r___external_camera.html#aeea134fb989edd510b907efa52bbb210", null ],
+    [ "configPath", "class_steam_v_r___external_camera.html#a5f66100943940c416b544d8921b33e74", null ],
+    [ "sceneResolutionScale", "class_steam_v_r___external_camera.html#abe3cd4178835c93df994c7b99d07ee08", null ],
+    [ "target", "class_steam_v_r___external_camera.html#a28bcd625adc9556341c6806a7b26da6e", null ],
+    [ "watcher", "class_steam_v_r___external_camera.html#aa6a48e93e2389d392272ee169f2307a2", null ]
+];

@@ -1,0 +1,26 @@
+var class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item =
+[
+    [ "GetPointer", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a93bc1c353a4a4696de01bd117b0b6c9d", null ],
+    [ "OnBeginDrag", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a8a346bacfa39e64d336765193564c79f", null ],
+    [ "OnDrag", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#ab355768eb27128ab1fc1da68a9e01740", null ],
+    [ "OnDraggableItemDropped", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#ad3bd52d617d702f50919c2f3caa583d4", null ],
+    [ "OnDraggableItemReset", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#abb80daa3d98e9bff0d3e46a8596dba1e", null ],
+    [ "OnEnable", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#abe6230a0170f07b3e1410b685d66b04d", null ],
+    [ "OnEndDrag", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a920f4db29658f0643851defd8aebe64f", null ],
+    [ "ResetElement", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a51bc311d76fd59d3f4a95cdb6623f656", null ],
+    [ "SetDragPosition", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a4dd02126f4f9d9d4b657ec446ea80cc6", null ],
+    [ "SetEventPayload", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a101828073bcbf0e51bbe6ad464a27290", null ],
+    [ "canvasGroup", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a927fb85616ebbff8c423db3e1ed3044f", null ],
+    [ "dragTransform", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a0656999bc2e0f270a4d3a0eff259d2fa", null ],
+    [ "forwardOffset", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a3aed25d2d78ae14b7439dadd42c50021", null ],
+    [ "restrictToDropZone", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a3673ab1e7781ddd49be860d88f77ccb4", null ],
+    [ "restrictToOriginalCanvas", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#ae7d6eb72b6092227b3a013f5483d8fb1", null ],
+    [ "startCanvas", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a3fa67848544059cee995e0f7d4f717d9", null ],
+    [ "startDropZone", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#af480293a443594f6d169a79d38651ae4", null ],
+    [ "startParent", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a59427fbd8906c55a933982e8f126a53d", null ],
+    [ "startPosition", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a97a006476944a0c9129aa7973883f752", null ],
+    [ "startRotation", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a9d371e5e590ccb7fbd2be4823dadd861", null ],
+    [ "validDropZone", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a1a363d8bc430866f9fc383f974ce2bf7", null ],
+    [ "DraggableItemDropped", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a880c7bd753e34487d6c66d05f4ad2ce1", null ],
+    [ "DraggableItemReset", "class_v_r_t_k_1_1_v_r_t_k___u_i_draggable_item.html#a2eaafc6349e3b76cf699d932f8cada20", null ]
+];
