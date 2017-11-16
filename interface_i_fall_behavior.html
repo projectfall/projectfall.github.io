@@ -30,7 +30,7 @@
   <td id="projectalign" style="padding-left: 0.5em;">
    <div id="projectname">Project Fall
    </div>
-   <div id="projectbrief">A Skydiving Simulator</div>
+   <div id="projectbrief">Skydiving Simulator</div>
   </td>
  </tr>
  </tbody>
@@ -88,7 +88,7 @@ $(document).ready(function(){initNavTree('interface_i_fall_behavior.html','');})
 </div><!--header-->
 <div class="contents">
 
-<p>While falling, there are 3 possible forces and 1 torque that can act upon the player  
+<p>While falling, there are 3 possible forces and 1 torque that can act upon the player.  
  <a href="interface_i_fall_behavior.html#details">More...</a></p>
 <div class="dynheader">
 Inheritance diagram for IFallBehavior:</div>
@@ -117,7 +117,8 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a2adefc3e0338ac84fb573301f3365868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>While falling, there are 3 possible forces and 1 torque that can act upon the player </p>
+<div class="textblock"><p>While falling, there are 3 possible forces and 1 torque that can act upon the player. </p>
+<p>We have written a separate method to apply each of these for the sake of modularization. None of these methods needs to know anything about the other methods. The functions need no outputs because they all internally call VRTK_BodyPhysics methods to set the player's motion; and no inputs because they work off of class variables for gravity, player drag coefficient, and so on. These physics-based properties are unlikely to ever change. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="aefb596ca5df80fc6789b759f710449b4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aefb596ca5df80fc6789b759f710449b4">&#9670;&nbsp;</a></span>applyDragForce()</h2>
@@ -204,7 +205,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this interface was generated from the following file:<ul>
-<li>C:/Users/User/Desktop/Project Fall/Project Fall/Assets/Scripts/Falling/<a class="el" href="_fall_behavior_8cs.html">FallBehavior.cs</a></li>
+<li>C:/Users/User/Documents/Git/Project Fall/Assets/Scripts/Falling/<a class="el" href="_fall_behavior_8cs.html">FallBehavior.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -212,7 +213,7 @@ Public Member Functions</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="interface_i_fall_behavior.html">IFallBehavior</a></li>
-    <li class="footer">Generated on Wed Nov 15 2017 17:48:16 for Project Fall by
+    <li class="footer">Generated on Thu Nov 16 2017 14:27:02 for Project Fall by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

@@ -1,20 +1,4 @@
 var searchData=
 [
-  ['cameraandlight_2ecs',['CameraAndLight.cs',['../_camera_and_light_8cs.html',1,'']]],
-  ['camerarefocus_2ecs',['CameraRefocus.cs',['../_camera_refocus_8cs.html',1,'']]],
-  ['chaperoneinfo_2ecs',['ChaperoneInfo.cs',['../_chaperone_info_8cs.html',1,'']]],
-  ['circulardrive_2ecs',['CircularDrive.cs',['../_circular_drive_8cs.html',1,'']]],
-  ['coloranimation_2ecs',['ColorAnimation.cs',['../_color_animation_8cs.html',1,'']]],
-  ['complexthrowable_2ecs',['ComplexThrowable.cs',['../_complex_throwable_8cs.html',1,'']]],
-  ['controller_5fhand_2ecs',['Controller_Hand.cs',['../_controller___hand_8cs.html',1,'']]],
-  ['controller_5fmenu_2ecs',['Controller_Menu.cs',['../_controller___menu_8cs.html',1,'']]],
-  ['controllerbuttonhints_2ecs',['ControllerButtonHints.cs',['../_controller_button_hints_8cs.html',1,'']]],
-  ['controllerhintsexample_2ecs',['ControllerHintsExample.cs',['../_controller_hints_example_8cs.html',1,'']]],
-  ['controllerhoverhighlight_2ecs',['ControllerHoverHighlight.cs',['../_controller_hover_highlight_8cs.html',1,'']]],
-  ['controlreactor_2ecs',['ControlReactor.cs',['../_control_reactor_8cs.html',1,'']]],
-  ['countrysidepack_2ecs',['CountrySidePack.cs',['../_country_side_pack_8cs.html',1,'']]],
-  ['crossplatforminputinitialize_2ecs',['CrossPlatformInputInitialize.cs',['../_cross_platform_input_initialize_8cs.html',1,'']]],
-  ['crossplatforminputmanager_2ecs',['CrossPlatformInputManager.cs',['../_cross_platform_input_manager_8cs.html',1,'']]],
-  ['curvecontrolledbob_2ecs',['CurveControlledBob.cs',['../_curve_controlled_bob_8cs.html',1,'']]],
-  ['customevents_2ecs',['CustomEvents.cs',['../_custom_events_8cs.html',1,'']]]
+  ['lerpresetcamerarotation_2ecs',['LerpResetCameraRotation.cs',['../_lerp_reset_camera_rotation_8cs.html',1,'']]]
 ];

@@ -5,6 +5,7 @@ var class_parachute_fall_behavior =
     [ "applyTorque", "class_parachute_fall_behavior.html#aa36edb4c3a4b2d34a6dc0e11362cb35f", null ],
     [ "applyWindForce", "class_parachute_fall_behavior.html#af86ddbc04a2c6b6fb26e60ff1de790dd", null ],
     [ "calculateLateralForce", "class_parachute_fall_behavior.html#a0d6e08ea7841c0116e2382e8ebaa35c2", null ],
+    [ "calculateTorque", "class_parachute_fall_behavior.html#acbfa968f7d3ef28d450df9f159ec50d6", null ],
     [ "findWindVector", "class_parachute_fall_behavior.html#a413ad829d70c004a8e1f66faff1ee74e", null ],
     [ "Start", "class_parachute_fall_behavior.html#a88bc2937b407b60a1a4b156bc9225c57", null ],
     [ "Update", "class_parachute_fall_behavior.html#ae4be3e6782a80d4d764975bc2de9fd9e", null ],

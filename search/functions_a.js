@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['jump',['Jump',['../class_v_r_t_k_1_1_examples_1_1_r_c___car.html#ad17a7ac9de684f14871291fe2086bb41',1,'VRTK::Examples::RC_Car']]],
-  ['just_3c_20t_20_3e',['Just&lt; T &gt;',['../struct_gaia_1_1_full_serializer_1_1_internal_1_1fs_option.html#a33479e586e195b0b59fd89bf38b4c116',1,'Gaia::FullSerializer::Internal::fsOption']]]
+  ['update',['Update',['../class_altimeter_script.html#a057843eca36653011e0f24b9e39e6be1',1,'AltimeterScript.Update()'],['../class_falling_behavior_manager.html#a6f7070c9d2adb8909a50ffa1950831a4',1,'FallingBehaviorManager.Update()'],['../class_free_fall_behavior.html#afeab15a42d30ebcb1f9045660a55cdcf',1,'FreeFallBehavior.Update()'],['../class_parachute_fall_behavior.html#ae4be3e6782a80d4d764975bc2de9fd9e',1,'ParachuteFallBehavior.Update()'],['../class_player_debug_info.html#a44f408b90a6ef58fea74137f8df100fd',1,'PlayerDebugInfo.Update()'],['../class_quit_menu_button.html#ac539cca6366e3790acd7c7df9533c368',1,'QuitMenuButton.Update()'],['../class_sound_manager.html#aba6cc29a03dfe5117ef532e875558ff3',1,'SoundManager.Update()']]],
+  ['updateangulardrag',['updateAngularDrag',['../class_free_fall_behavior.html#a478c59a3d552369dd842cc319c34de51',1,'FreeFallBehavior']]]
 ];
