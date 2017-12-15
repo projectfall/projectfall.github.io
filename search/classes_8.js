@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['soundmanager',['SoundManager',['../class_sound_manager.html',1,'']]]
+  ['neweditmodetest',['NewEditModeTest',['../class_new_edit_mode_test.html',1,'']]]
 ];

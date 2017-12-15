@@ -1,9 +1,31 @@
 var class_sound_manager =
 [
+    [ "DelaySound", "class_sound_manager.html#ae9ad159aef0c7a47ec5f3d59a100c3ff", null ],
+    [ "FadeInSound", "class_sound_manager.html#a154d464ebafda2430b125b22b8f5950f", null ],
+    [ "FadeOutSound", "class_sound_manager.html#a7c69861605387ff8fed2bfee3bbf9b9e", null ],
+    [ "PlayCrateCollisionSound", "class_sound_manager.html#a8ab275112a9df7582442061248c5e68f", null ],
+    [ "PlayDeathSound", "class_sound_manager.html#a15626fec0156657a82527fb1ff64f12c", null ],
+    [ "PlayLandingSound", "class_sound_manager.html#ac6d34cf2c23387eb67ac336738f6b82b", null ],
+    [ "PlayParachuteOpenSound", "class_sound_manager.html#a16f9257239adade63a170600122e65fe", null ],
     [ "Start", "class_sound_manager.html#adfe146914a2614dd76f8278c29f6a74f", null ],
     [ "StartFreeFallSound", "class_sound_manager.html#a190b297b5c2123a9e169209dd26aeced", null ],
+    [ "StartGroundAmbience", "class_sound_manager.html#a21c19354b8bd381b729dfaead657ef7e", null ],
+    [ "StartParachuteFallSound", "class_sound_manager.html#a20023965fd480a80e58f422e88c19cf8", null ],
     [ "StopFreeFallSound", "class_sound_manager.html#a07e06e89b010233a14a7ab6044ae7a76", null ],
+    [ "StopGroundAmbience", "class_sound_manager.html#aa2e90f69d72a526f35b4d01eab1f3aa8", null ],
+    [ "StopParachuteFallSound", "class_sound_manager.html#a3a703267ba3899fd66b68fb6556accb9", null ],
     [ "Update", "class_sound_manager.html#aba6cc29a03dfe5117ef532e875558ff3", null ],
+    [ "VaryFreeFallSoundVolume", "class_sound_manager.html#a4dd76dc1820113d105014cfaa67aac0d", null ],
     [ "CameraRig", "class_sound_manager.html#a159f607dc5132c06c64ebe23807dc909", null ],
-    [ "FreeFallSound", "class_sound_manager.html#a49ce1c978882b77e2cfea9072441f4df", null ]
+    [ "CrateCollision", "class_sound_manager.html#aa2e253ef760e2ff4373ab026843a8654", null ],
+    [ "DeathSound", "class_sound_manager.html#ab3c28de4b9681f66f2ff7a5555ab0c82", null ],
+    [ "FreeFallSound", "class_sound_manager.html#a49ce1c978882b77e2cfea9072441f4df", null ],
+    [ "GroundAmbience", "class_sound_manager.html#a6ef92705e0bb3db66ff9807434f0f349", null ],
+    [ "JumpOutSound", "class_sound_manager.html#aabdad922752f895209a9807212575b5a", null ],
+    [ "LandingSound", "class_sound_manager.html#a25620bce8312a79d63d3484f45325c12", null ],
+    [ "maxFallSpeedForVolume", "class_sound_manager.html#abbbcdd235a0d79367df3b168ea03fa3c", null ],
+    [ "minFallSpeedForVolume", "class_sound_manager.html#a66dd25faf782f9349e2af3d1626457e0", null ],
+    [ "ParachuteFallSound", "class_sound_manager.html#a3d2c50ab4f903167a33ca18e60637562", null ],
+    [ "ParachuteOpenSound", "class_sound_manager.html#a8f621ce609b6ecc4f3c0417fc037ba38", null ],
+    [ "rb", "class_sound_manager.html#a5d6b900dbd8f9c9a4bf374f1fc8ea839", null ]
 ];

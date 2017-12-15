@@ -1,7 +1,23 @@
 var searchData=
 [
-  ['camerarig',['CameraRig',['../class_free_fall_behavior.html#a922555ea26002ab48d345d3dcc6f6c30',1,'FreeFallBehavior.CameraRig()'],['../class_lerp_reset_camera_rotation.html#a094fd4d1166078aa439c7b157cf225cf',1,'LerpResetCameraRotation.CameraRig()'],['../class_sound_manager.html#a159f607dc5132c06c64ebe23807dc909',1,'SoundManager.CameraRig()'],['../class_falling_behavior_manager.html#a3b9bc00cb6e5b55bfafbca33cecfb373',1,'FallingBehaviorManager.cameraRig()']]],
+  ['camera',['camera',['../class_incoming_projectile_u_i.html#ac38a859730b2f5befd0707055175e723',1,'IncomingProjectileUI']]],
+  ['camerarig',['CameraRig',['../class_free_fall_behavior.html#a922555ea26002ab48d345d3dcc6f6c30',1,'FreeFallBehavior.CameraRig()'],['../class_lerp_reset_camera_rotation.html#a094fd4d1166078aa439c7b157cf225cf',1,'LerpResetCameraRotation.CameraRig()'],['../class_sound_manager.html#a159f607dc5132c06c64ebe23807dc909',1,'SoundManager.CameraRig()']]],
+  ['camrig',['camRig',['../class_falling_behavior_manager.html#a88d1aa498612cce498cb30ef862e1919',1,'FallingBehaviorManager.camRig()'],['../class_player.html#a75a795901af2558e07de93088546d341',1,'Player.camRig()']]],
+  ['camtransform',['camTransform',['../class_incoming_projectile_u_i.html#aa900012f2be0a138c788c0a890586146',1,'IncomingProjectileUI']]],
+  ['canvas',['canvas',['../class_incoming_projectile_u_i.html#a2ef1d783b67f9af3fe3a8a9b508b24cd',1,'IncomingProjectileUI']]],
+  ['canvasprefab',['canvasPrefab',['../class_incoming_projectile_u_i.html#af8a139ff1a1e8248ce6138204751dfd7',1,'IncomingProjectileUI']]],
+  ['challengemodescenename',['challengeModeSceneName',['../class_main_menu.html#a54ee470ad7780301afee3716929fae82',1,'MainMenu']]],
   ['challengetext',['challengeText',['../class_main_menu.html#ac714ab537c749052c845453aeb51b140',1,'MainMenu']]],
-  ['counter',['counter',['../class_altimeter_script.html#a39b5b6c9e3d4c7553f0794e36d09d1d8',1,'AltimeterScript']]],
+  ['clampbordersize',['clampBorderSize',['../class_incoming_projectile_u_i.html#a8d9970d8dd64ecd68779b21d998d9592',1,'IncomingProjectileUI']]],
+  ['clamptoscreen',['clampToScreen',['../class_incoming_projectile_u_i.html#a6a91b4e106db29d7bdbc12bfd46d5edc',1,'IncomingProjectileUI']]],
+  ['collected',['collected',['../class_collectible_behavior.html#a2adfe348d0cdb0b704b6547087c0dee2',1,'CollectibleBehavior']]],
+  ['collectibleprefab',['collectiblePrefab',['../class_setup_spawner.html#aadb716c5e73cbd76ea490dde84d97255',1,'SetupSpawner']]],
+  ['collectibles',['collectibles',['../class_setup_spawner.html#a00d7d703b3a9a568ca0187aa846c6470',1,'SetupSpawner']]],
+  ['collectiblestospawn',['collectiblesToSpawn',['../class_setup_spawner.html#afa0a1d8faed0753f985e61f86bb8ee1c',1,'SetupSpawner']]],
+  ['color',['color',['../class_outline.html#aca59b4949cbc6978fd9593a994b5796a',1,'Outline']]],
+  ['commandbuffer',['commandBuffer',['../class_outline_effect.html#a632116bc6989776f5b3dd4e385dba09b',1,'OutlineEffect']]],
+  ['corneroutlines',['cornerOutlines',['../class_outline_effect.html#a789aca6d7fa0f3677b542823de3a5ed1',1,'OutlineEffect']]],
+  ['count',['count',['../class_propeller_spinner.html#a053e89d98ff69862aa268ac89a02fbc5',1,'PropellerSpinner']]],
+  ['cratecollision',['CrateCollision',['../class_sound_manager.html#aa2e253ef760e2ff4373ab026843a8654',1,'SoundManager']]],
   ['currenttime',['currentTime',['../class_parachute_fall_behavior.html#a4278516fa3228e63fce042a8027f478a',1,'ParachuteFallBehavior']]]
 ];

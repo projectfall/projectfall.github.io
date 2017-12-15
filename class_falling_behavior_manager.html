@@ -81,7 +81,6 @@ $(document).ready(function(){initNavTree('class_falling_behavior_manager.html','
 
 <div class="header">
   <div class="summary">
-<a href="#pub-attribs">Public Attributes</a> &#124;
 <a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="class_falling_behavior_manager-members.html">List of all members</a>  </div>
@@ -98,31 +97,25 @@ Inheritance diagram for FallingBehaviorManager:</div>
 </map>
  </div></div>
 <table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
-Public Attributes</h2></td></tr>
-<tr class="memitem:ae8ae5be3b00f0fe83ecd03dc51237a4e"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#ae8ae5be3b00f0fe83ecd03dc51237a4e">parachutePrefab</a></td></tr>
-<tr class="memdesc:ae8ae5be3b00f0fe83ecd03dc51237a4e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the GameObject that represents the parachute  <a href="#ae8ae5be3b00f0fe83ecd03dc51237a4e">More...</a><br /></td></tr>
-<tr class="separator:ae8ae5be3b00f0fe83ecd03dc51237a4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
 <tr class="memitem:a0632c3be7a3c0547ecd9da2db21b875d"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a0632c3be7a3c0547ecd9da2db21b875d">parachuteCordIsPulled</a> ()</td></tr>
 <tr class="memdesc:a0632c3be7a3c0547ecd9da2db21b875d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the parachute cord is pulled or not  <a href="#a0632c3be7a3c0547ecd9da2db21b875d">More...</a><br /></td></tr>
 <tr class="separator:a0632c3be7a3c0547ecd9da2db21b875d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d164f47686d7a47b26a0f756e56d07d"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a6d164f47686d7a47b26a0f756e56d07d">Start</a> ()</td></tr>
-<tr class="memdesc:a6d164f47686d7a47b26a0f756e56d07d"><td class="mdescLeft">&#160;</td><td class="mdescRight">During initialization, the Player has a <a class="el" href="class_free_fall_behavior.html">FreeFallBehavior</a>  <a href="#a6d164f47686d7a47b26a0f756e56d07d">More...</a><br /></td></tr>
+<tr class="memdesc:a6d164f47686d7a47b26a0f756e56d07d"><td class="mdescLeft">&#160;</td><td class="mdescRight">During initialization, <a class="el" href="class_falling_behavior_manager.html#a7c69a660a287b0da26de72d872daaa08" title="Deploys parachute ">deployParachute()</a> subscribes to both controller's TriggerPressed event  <a href="#a6d164f47686d7a47b26a0f756e56d07d">More...</a><br /></td></tr>
 <tr class="separator:a6d164f47686d7a47b26a0f756e56d07d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afca697131334ece550e5f09514533bc1"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#afca697131334ece550e5f09514533bc1">deployParachute</a> ()</td></tr>
-<tr class="memdesc:afca697131334ece550e5f09514533bc1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deploys parachute  <a href="#afca697131334ece550e5f09514533bc1">More...</a><br /></td></tr>
-<tr class="separator:afca697131334ece550e5f09514533bc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6f7070c9d2adb8909a50ffa1950831a4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a6f7070c9d2adb8909a50ffa1950831a4">Update</a> ()</td></tr>
-<tr class="memdesc:a6f7070c9d2adb8909a50ffa1950831a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Update will check to see if parachute cord is pulled every frame  <a href="#a6f7070c9d2adb8909a50ffa1950831a4">More...</a><br /></td></tr>
-<tr class="separator:a6f7070c9d2adb8909a50ffa1950831a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a47d65a871c1ae8a8f7af52bbfef3134d"><td class="memItemLeft" align="right" valign="top">IEnumerator&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a47d65a871c1ae8a8f7af52bbfef3134d">startFreeFall</a> ()</td></tr>
+<tr class="memdesc:a47d65a871c1ae8a8f7af52bbfef3134d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Coroutine method called on <a class="el" href="class_falling_behavior_manager.html#a6d164f47686d7a47b26a0f756e56d07d" title="During initialization, deployParachute() subscribes to both controller&#39;s TriggerPressed event ...">Start()</a>.  <a href="#a47d65a871c1ae8a8f7af52bbfef3134d">More...</a><br /></td></tr>
+<tr class="separator:a47d65a871c1ae8a8f7af52bbfef3134d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c69a660a287b0da26de72d872daaa08"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a7c69a660a287b0da26de72d872daaa08">deployParachute</a> (object sender, ControllerInteractionEventArgs e)</td></tr>
+<tr class="memdesc:a7c69a660a287b0da26de72d872daaa08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deploys parachute  <a href="#a7c69a660a287b0da26de72d872daaa08">More...</a><br /></td></tr>
+<tr class="separator:a7c69a660a287b0da26de72d872daaa08"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:aa46847b0f2f38cd2b9c6901bb0fe475a"><td class="memItemLeft" align="right" valign="top"><a class="el" href="interface_i_fall_behavior.html">IFallBehavior</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#aa46847b0f2f38cd2b9c6901bb0fe475a">fb</a></td></tr>
-<tr class="memdesc:aa46847b0f2f38cd2b9c6901bb0fe475a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current FallBehavior that the Player has  <a href="#aa46847b0f2f38cd2b9c6901bb0fe475a">More...</a><br /></td></tr>
+<tr class="memdesc:aa46847b0f2f38cd2b9c6901bb0fe475a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The current FallBehavior that the <a class="el" href="class_player.html">Player</a> has  <a href="#aa46847b0f2f38cd2b9c6901bb0fe475a">More...</a><br /></td></tr>
 <tr class="separator:aa46847b0f2f38cd2b9c6901bb0fe475a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a3edac67e12d5658e706b7d2daa5b26"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a1a3edac67e12d5658e706b7d2daa5b26">parachuteCordPulled</a> = false</td></tr>
 <tr class="memdesc:a1a3edac67e12d5658e706b7d2daa5b26"><td class="mdescLeft">&#160;</td><td class="mdescRight">Boolean that determines if the parachute cord is pulled.  <a href="#a1a3edac67e12d5658e706b7d2daa5b26">More...</a><br /></td></tr>
@@ -130,13 +123,25 @@ Private Attributes</h2></td></tr>
 <tr class="memitem:ad81c681e1c9324fca67b588a3da3fb98"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#ad81c681e1c9324fca67b588a3da3fb98">parachuteCord</a></td></tr>
 <tr class="memdesc:ad81c681e1c9324fca67b588a3da3fb98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Stores the GameObject that represents the parachute cord  <a href="#ad81c681e1c9324fca67b588a3da3fb98">More...</a><br /></td></tr>
 <tr class="separator:ad81c681e1c9324fca67b588a3da3fb98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b9bc00cb6e5b55bfafbca33cecfb373"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a3b9bc00cb6e5b55bfafbca33cecfb373">cameraRig</a></td></tr>
-<tr class="memdesc:a3b9bc00cb6e5b55bfafbca33cecfb373"><td class="mdescLeft">&#160;</td><td class="mdescRight">The cameraRig GameObject  <a href="#a3b9bc00cb6e5b55bfafbca33cecfb373">More...</a><br /></td></tr>
-<tr class="separator:a3b9bc00cb6e5b55bfafbca33cecfb373"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5893ddd54f301acdf8d67cc6d236b002"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_sound_manager.html">SoundManager</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a5893ddd54f301acdf8d67cc6d236b002">sndMgr</a></td></tr>
+<tr class="memdesc:a5893ddd54f301acdf8d67cc6d236b002"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sound Manager that includes sounds being used by this script  <a href="#a5893ddd54f301acdf8d67cc6d236b002">More...</a><br /></td></tr>
+<tr class="separator:a5893ddd54f301acdf8d67cc6d236b002"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf94f3254f070b935821abcc606787da"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#aaf94f3254f070b935821abcc606787da">leftController</a></td></tr>
+<tr class="memdesc:aaf94f3254f070b935821abcc606787da"><td class="mdescLeft">&#160;</td><td class="mdescRight">The VR Left Controller  <a href="#aaf94f3254f070b935821abcc606787da">More...</a><br /></td></tr>
+<tr class="separator:aaf94f3254f070b935821abcc606787da"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2c6d53519170a18a0d8b95f5c05be32b"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a2c6d53519170a18a0d8b95f5c05be32b">rightController</a></td></tr>
+<tr class="memdesc:a2c6d53519170a18a0d8b95f5c05be32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The VR Right Controller  <a href="#a2c6d53519170a18a0d8b95f5c05be32b">More...</a><br /></td></tr>
+<tr class="separator:a2c6d53519170a18a0d8b95f5c05be32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abe5d675995acf64ffd773d0696129177"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#abe5d675995acf64ffd773d0696129177">parachute</a></td></tr>
+<tr class="memdesc:abe5d675995acf64ffd773d0696129177"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Parachute GameObject that the player can deploy  <a href="#abe5d675995acf64ffd773d0696129177">More...</a><br /></td></tr>
+<tr class="separator:abe5d675995acf64ffd773d0696129177"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a88d1aa498612cce498cb30ef862e1919"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_falling_behavior_manager.html#a88d1aa498612cce498cb30ef862e1919">camRig</a></td></tr>
+<tr class="memdesc:a88d1aa498612cce498cb30ef862e1919"><td class="mdescLeft">&#160;</td><td class="mdescRight">The Camera Rig of the <a class="el" href="class_player.html">Player</a>  <a href="#a88d1aa498612cce498cb30ef862e1919">More...</a><br /></td></tr>
+<tr class="separator:a88d1aa498612cce498cb30ef862e1919"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="afca697131334ece550e5f09514533bc1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afca697131334ece550e5f09514533bc1">&#9670;&nbsp;</a></span>deployParachute()</h2>
+<a id="a7c69a660a287b0da26de72d872daaa08"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c69a660a287b0da26de72d872daaa08">&#9670;&nbsp;</a></span>deployParachute()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -147,8 +152,19 @@ Private Attributes</h2></td></tr>
         <tr>
           <td class="memname">void FallingBehaviorManager.deployParachute </td>
           <td>(</td>
-          <td class="paramname"></td><td>)</td>
+          <td class="paramtype">object&#160;</td>
+          <td class="paramname"><em>sender</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype">ControllerInteractionEventArgs&#160;</td>
+          <td class="paramname"><em>e</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
         </tr>
       </table>
   </td>
@@ -213,12 +229,12 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>During initialization, the Player has a <a class="el" href="class_free_fall_behavior.html">FreeFallBehavior</a> </p>
+<p>During initialization, <a class="el" href="class_falling_behavior_manager.html#a7c69a660a287b0da26de72d872daaa08" title="Deploys parachute ">deployParachute()</a> subscribes to both controller's TriggerPressed event </p>
 
 </div>
 </div>
-<a id="a6f7070c9d2adb8909a50ffa1950831a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6f7070c9d2adb8909a50ffa1950831a4">&#9670;&nbsp;</a></span>Update()</h2>
+<a id="a47d65a871c1ae8a8f7af52bbfef3134d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a47d65a871c1ae8a8f7af52bbfef3134d">&#9670;&nbsp;</a></span>startFreeFall()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +243,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">void FallingBehaviorManager.Update </td>
+          <td class="memname">IEnumerator FallingBehaviorManager.startFreeFall </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -240,13 +256,15 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Update will check to see if parachute cord is pulled every frame </p>
+<p>Coroutine method called on <a class="el" href="class_falling_behavior_manager.html#a6d164f47686d7a47b26a0f756e56d07d" title="During initialization, deployParachute() subscribes to both controller&#39;s TriggerPressed event ...">Start()</a>. </p>
+<p>Will make the player freefall initially </p>
+<dl class="section return"><dt>Returns</dt><dd>Returns a IEnumerator that will be used by Unity's StartCoroutine method </dd></dl>
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a3b9bc00cb6e5b55bfafbca33cecfb373"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b9bc00cb6e5b55bfafbca33cecfb373">&#9670;&nbsp;</a></span>cameraRig</h2>
+<a id="a88d1aa498612cce498cb30ef862e1919"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a88d1aa498612cce498cb30ef862e1919">&#9670;&nbsp;</a></span>camRig</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -255,7 +273,7 @@ Private Attributes</h2></td></tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject FallingBehaviorManager.cameraRig</td>
+          <td class="memname">GameObject FallingBehaviorManager.camRig</td>
         </tr>
       </table>
   </td>
@@ -265,7 +283,7 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The cameraRig GameObject </p>
+<p>The Camera Rig of the <a class="el" href="class_player.html">Player</a> </p>
 
 </div>
 </div>
@@ -289,7 +307,55 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>The current FallBehavior that the Player has </p>
+<p>The current FallBehavior that the <a class="el" href="class_player.html">Player</a> has </p>
+
+</div>
+</div>
+<a id="aaf94f3254f070b935821abcc606787da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf94f3254f070b935821abcc606787da">&#9670;&nbsp;</a></span>leftController</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject FallingBehaviorManager.leftController</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The VR Left Controller </p>
+
+</div>
+</div>
+<a id="abe5d675995acf64ffd773d0696129177"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abe5d675995acf64ffd773d0696129177">&#9670;&nbsp;</a></span>parachute</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">GameObject FallingBehaviorManager.parachute</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The Parachute GameObject that the player can deploy </p>
 
 </div>
 </div>
@@ -342,19 +408,51 @@ Private Attributes</h2></td></tr>
 
 </div>
 </div>
-<a id="ae8ae5be3b00f0fe83ecd03dc51237a4e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae8ae5be3b00f0fe83ecd03dc51237a4e">&#9670;&nbsp;</a></span>parachutePrefab</h2>
+<a id="a2c6d53519170a18a0d8b95f5c05be32b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c6d53519170a18a0d8b95f5c05be32b">&#9670;&nbsp;</a></span>rightController</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject FallingBehaviorManager.parachutePrefab</td>
+          <td class="memname">GameObject FallingBehaviorManager.rightController</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-<p>Stores the GameObject that represents the parachute </p>
+<p>The VR Right Controller </p>
+
+</div>
+</div>
+<a id="a5893ddd54f301acdf8d67cc6d236b002"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5893ddd54f301acdf8d67cc6d236b002">&#9670;&nbsp;</a></span>sndMgr</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="class_sound_manager.html">SoundManager</a> FallingBehaviorManager.sndMgr</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sound Manager that includes sounds being used by this script </p>
 
 </div>
 </div>
@@ -367,7 +465,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_falling_behavior_manager.html">FallingBehaviorManager</a></li>
-    <li class="footer">Generated on Thu Nov 16 2017 14:27:02 for Project Fall by
+    <li class="footer">Generated on Thu Dec 14 2017 19:21:19 for Project Fall by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>

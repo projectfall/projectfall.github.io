@@ -1,12 +1,17 @@
 var searchData=
 [
-  ['lateralmovementmultiplier',['lateralMovementMultiplier',['../class_parachute_fall_behavior.html#a784da3603128b57b47a03cb497cdd03e',1,'ParachuteFallBehavior']]],
-  ['lateralthreshold',['lateralThreshold',['../class_free_fall_behavior.html#a2569641bd2fdc47535d8289ef65e82f4',1,'FreeFallBehavior']]],
-  ['leftcontroller',['leftController',['../class_altimeter_script.html#a319b7e9a11565421bbcddcee738107af',1,'AltimeterScript']]],
-  ['leftrightlateralscaling',['leftRightLateralScaling',['../class_free_fall_behavior.html#ad9f863e32a6c3c50d3361981fcf11723',1,'FreeFallBehavior']]],
-  ['leftrightlateralspeedlimit',['leftRightLateralSpeedLimit',['../class_free_fall_behavior.html#a8e5ed749312603e571483c9ddca396bf',1,'FreeFallBehavior']]],
-  ['leftshoulderforce',['leftShoulderForce',['../class_free_fall_behavior.html#a5d794ece5d445b05285e8cee3a781560',1,'FreeFallBehavior']]],
-  ['leftshoulderposition',['leftShoulderPosition',['../class_free_fall_behavior.html#a7d9efbe4c04706d7771a0d4ee786200f',1,'FreeFallBehavior']]],
-  ['lerpresetcamerarotation',['LerpResetCameraRotation',['../class_lerp_reset_camera_rotation.html',1,'']]],
-  ['lerpresetcamerarotation_2ecs',['LerpResetCameraRotation.cs',['../_lerp_reset_camera_rotation_8cs.html',1,'']]]
+  ['ifallbehavior',['IFallBehavior',['../interface_i_fall_behavior.html',1,'']]],
+  ['immersivemode',['ImmersiveMode',['../class_immersive_mode.html',1,'']]],
+  ['immersivemode_2ecs',['ImmersiveMode.cs',['../_immersive_mode_8cs.html',1,'']]],
+  ['immersivemodescenename',['immersiveModeSceneName',['../class_main_menu.html#a7b9a105771b472d1ccb93da745f42950',1,'MainMenu']]],
+  ['immersivetext',['immersiveText',['../class_main_menu.html#a431661753159e29a6187de25038f26ad',1,'MainMenu']]],
+  ['inair',['inAir',['../class_score_manager.html#a463e2b7a1c40f595a907ca9ecb52d8e2',1,'ScoreManager']]],
+  ['incomingprojectileui',['IncomingProjectileUI',['../class_incoming_projectile_u_i.html',1,'']]],
+  ['incomingprojectileui_2ecs',['IncomingProjectileUI.cs',['../_incoming_projectile_u_i_8cs.html',1,'']]],
+  ['incrementscore',['incrementScore',['../class_player.html#a8fa0084d121c79cac41f587e09aca787',1,'Player.incrementScore()'],['../class_score_manager.html#a3b683e5dbbdedb3f1e7c557614eebf6c',1,'ScoreManager.incrementScore()']]],
+  ['instance',['Instance',['../class_outline_effect.html#aa8a070ba3c657b124dd225a6b4532abf',1,'OutlineEffect']]],
+  ['isalive',['isAlive',['../class_player.html#a5051f4b30717af47a58d58014a28634d',1,'Player']]],
+  ['isfreefalling',['isFreeFalling',['../class_free_fall_behavior.html#ac7c4ea07d6cb40ec3e8b201e774f27b5',1,'FreeFallBehavior']]],
+  ['isonhand',['isOnHand',['../class_score_text_updater.html#a6b0bc1c94207c5bc6b35290c0ec53813',1,'ScoreTextUpdater']]],
+  ['isparachuting',['isParachuting',['../class_parachute_fall_behavior.html#ac82de3503cb3e276e090ce8147aee5ad',1,'ParachuteFallBehavior']]]
 ];

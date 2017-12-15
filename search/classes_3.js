@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['lerpresetcamerarotation',['LerpResetCameraRotation',['../class_lerp_reset_camera_rotation.html',1,'']]]
+  ['fallingbehaviormanager',['FallingBehaviorManager',['../class_falling_behavior_manager.html',1,'']]],
+  ['freefallbehavior',['FreeFallBehavior',['../class_free_fall_behavior.html',1,'']]]
 ];

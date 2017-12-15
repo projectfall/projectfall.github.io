@@ -1,0 +1,26 @@
+var class_player =
+[
+    [ "die", "class_player.html#a16265288ebe46d5d5c0655e933944bd5", null ],
+    [ "dieCoroutine", "class_player.html#a35db26582d17ef17f5866c9a0777ad36", null ],
+    [ "incrementScore", "class_player.html#a8fa0084d121c79cac41f587e09aca787", null ],
+    [ "land", "class_player.html#a06980c0fbf758bcd5212a13a6d6995d0", null ],
+    [ "landCoroutine", "class_player.html#a5a92d822e0e92c1f16257bd51ec44bee", null ],
+    [ "returnRecordedVelocity", "class_player.html#a5ab1368115b955752dead3874df74259", null ],
+    [ "Start", "class_player.html#a1a09a3ded16ac1646f6bdd4f25fe0ddd", null ],
+    [ "startTimer", "class_player.html#ab9603de0884ea272760775623497210a", null ],
+    [ "stopTimer", "class_player.html#aecea87d0e0466472e5ffcbb697dafcd1", null ],
+    [ "Update", "class_player.html#aace80372e18e32fe177e295fe5d93ba8", null ],
+    [ "camRig", "class_player.html#a75a795901af2558e07de93088546d341", null ],
+    [ "deathText", "class_player.html#af593162bfba68cc23c7d0b612eb106b5", null ],
+    [ "deathWait", "class_player.html#a45bcd620369c0ac28a2a1f8f9aef979a", null ],
+    [ "isAlive", "class_player.html#a5051f4b30717af47a58d58014a28634d", null ],
+    [ "landingText", "class_player.html#a70ee4b6f56a7af7549ca4d3369659060", null ],
+    [ "landWait", "class_player.html#ac6813ab7c2da698eba93cfd14152b6b7", null ],
+    [ "recordedVelocity", "class_player.html#ae7bc749a4822932f05f8e12729ee1071", null ],
+    [ "scoreMgr", "class_player.html#acda97e106de6b29612135e01d508ac22", null ],
+    [ "scoreText", "class_player.html#a7d95463aca15eafbfa33e3342ffa3806", null ],
+    [ "sndMgr", "class_player.html#a6720f5ce8b530bf597d4e7c968c0cf99", null ],
+    [ "timer", "class_player.html#a700374bcf121230d4211c3b1d7c46193", null ],
+    [ "timerRunning", "class_player.html#a34c528c122facce13e28e727b10c4dd3", null ],
+    [ "timerVel", "class_player.html#a680e648ca08bf7dd8965e1bac372618a", null ]
+];

@@ -101,15 +101,8 @@ Inheritance diagram for AltimeterScript:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
 <tr class="memitem:a5c6c5dce6e8a21f4a8ec1dc1d9d578de"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a5c6c5dce6e8a21f4a8ec1dc1d9d578de">maxAltitude</a> = 4572</td></tr>
+<tr class="memdesc:a5c6c5dce6e8a21f4a8ec1dc1d9d578de"><td class="mdescLeft">&#160;</td><td class="mdescRight">The max altitude from which the player jump  <a href="#a5c6c5dce6e8a21f4a8ec1dc1d9d578de">More...</a><br /></td></tr>
 <tr class="separator:a5c6c5dce6e8a21f4a8ec1dc1d9d578de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39b5b6c9e3d4c7553f0794e36d09d1d8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a39b5b6c9e3d4c7553f0794e36d09d1d8">counter</a></td></tr>
-<tr class="separator:a39b5b6c9e3d4c7553f0794e36d09d1d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6cc42a13edbb3906d7710e94b6f19688"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a6cc42a13edbb3906d7710e94b6f19688">deltaHeight</a></td></tr>
-<tr class="separator:a6cc42a13edbb3906d7710e94b6f19688"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a11a3b620d1f174f2bbd7adeb3f9eff4d"><td class="memItemLeft" align="right" valign="top">float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a11a3b620d1f174f2bbd7adeb3f9eff4d">previousHeight</a></td></tr>
-<tr class="separator:a11a3b620d1f174f2bbd7adeb3f9eff4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a463433388af3fdb975954c78122947f5"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a463433388af3fdb975954c78122947f5">myCube</a></td></tr>
-<tr class="separator:a463433388af3fdb975954c78122947f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-methods"></a>
 Private Member Functions</h2></td></tr>
@@ -122,7 +115,14 @@ Private Member Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
+<tr class="memitem:a4b7329fb838922222ebf0a836d7ea905"><td class="memItemLeft" align="right" valign="top">const float&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a4b7329fb838922222ebf0a836d7ea905">angleOffset</a> = 192f</td></tr>
+<tr class="memdesc:a4b7329fb838922222ebf0a836d7ea905"><td class="mdescLeft">&#160;</td><td class="mdescRight">The offset of the needle on altimeter in degrees  <a href="#a4b7329fb838922222ebf0a836d7ea905">More...</a><br /></td></tr>
+<tr class="separator:a4b7329fb838922222ebf0a836d7ea905"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a0957b449dc0ebbb6dcb813b761874d"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a9a0957b449dc0ebbb6dcb813b761874d">pivot</a></td></tr>
+<tr class="memdesc:a9a0957b449dc0ebbb6dcb813b761874d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The needle of the altimeter is a GameObject pivot.  <a href="#a9a0957b449dc0ebbb6dcb813b761874d">More...</a><br /></td></tr>
+<tr class="separator:a9a0957b449dc0ebbb6dcb813b761874d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a319b7e9a11565421bbcddcee738107af"><td class="memItemLeft" align="right" valign="top">GameObject&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_altimeter_script.html#a319b7e9a11565421bbcddcee738107af">leftController</a></td></tr>
+<tr class="memdesc:a319b7e9a11565421bbcddcee738107af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rember the variable for model transformation  <a href="#a319b7e9a11565421bbcddcee738107af">More...</a><br /></td></tr>
 <tr class="separator:a319b7e9a11565421bbcddcee738107af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
@@ -183,31 +183,27 @@ Private Attributes</h2></td></tr>
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a39b5b6c9e3d4c7553f0794e36d09d1d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a39b5b6c9e3d4c7553f0794e36d09d1d8">&#9670;&nbsp;</a></span>counter</h2>
+<a id="a4b7329fb838922222ebf0a836d7ea905"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4b7329fb838922222ebf0a836d7ea905">&#9670;&nbsp;</a></span>angleOffset</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">int AltimeterScript.counter</td>
+          <td class="memname">const float AltimeterScript.angleOffset = 192f</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a6cc42a13edbb3906d7710e94b6f19688"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6cc42a13edbb3906d7710e94b6f19688">&#9670;&nbsp;</a></span>deltaHeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float AltimeterScript.deltaHeight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>The offset of the needle on altimeter in degrees </p>
 
 </div>
 </div>
@@ -231,6 +227,8 @@ Private Attributes</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Rember the variable for model transformation </p>
+
 </div>
 </div>
 <a id="a5c6c5dce6e8a21f4a8ec1dc1d9d578de"></a>
@@ -245,38 +243,37 @@ Private Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>The max altitude from which the player jump </p>
+
 </div>
 </div>
-<a id="a463433388af3fdb975954c78122947f5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a463433388af3fdb975954c78122947f5">&#9670;&nbsp;</a></span>myCube</h2>
+<a id="a9a0957b449dc0ebbb6dcb813b761874d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a0957b449dc0ebbb6dcb813b761874d">&#9670;&nbsp;</a></span>pivot</h2>
 
 <div class="memitem">
 <div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">GameObject AltimeterScript.myCube</td>
+          <td class="memname">GameObject AltimeterScript.pivot</td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">private</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
-</div>
-</div>
-<a id="a11a3b620d1f174f2bbd7adeb3f9eff4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a11a3b620d1f174f2bbd7adeb3f9eff4d">&#9670;&nbsp;</a></span>previousHeight</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">float AltimeterScript.previousHeight</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
+<p>The needle of the altimeter is a GameObject pivot. </p>
+<p>Remember the variable for model transformation. </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>C:/Users/User/Documents/Git/Project Fall/Assets/Scripts/<a class="el" href="_altimeter_script_8cs.html">AltimeterScript.cs</a></li>
+<li>C:/Users/User/Documents/Git/Project Fall/Assets/Scripts/Objects/<a class="el" href="_altimeter_script_8cs.html">AltimeterScript.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -284,7 +281,7 @@ Private Attributes</h2></td></tr>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="class_altimeter_script.html">AltimeterScript</a></li>
-    <li class="footer">Generated on Thu Nov 16 2017 14:27:02 for Project Fall by
+    <li class="footer">Generated on Thu Dec 14 2017 19:21:19 for Project Fall by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.13 </li>
   </ul>
